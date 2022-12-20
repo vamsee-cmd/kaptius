@@ -1,0 +1,79 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url('./assets/bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+input[type='text'], input[type='email'], input[type='date']{
+    width:80%; padding: 12px 20px; margin: 8px 0; box-sizing: border-box;
+}
+input[type='submit']{
+    background-color: rgb(12, 12, 12); border: none; color: white; padding: 15px 32px; text-align: center;text-decoration: none;display: inline-block;font-size: 16px;
+}
+h3{
+    line-height: 1.8;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#BookDemo{
+    color: rgb(161, 200, 235); text-decoration: none; border: 5px;
+}
+#aboutus{
+    text-align: left; position: relative; width: 90%; height: 510px; border-radius: 20px; padding: 40px; padding-top: 25px; box-sizing: border-box; background: #04192a; box-shadow: 10px 10px 15px #cbced1, -10px -10px 10px white;
+}
+.infoMail{
+    color: rgb(43, 189, 237); text-decoration: none; border: 5px;
+}
+.formcen{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: relative;
+    width: 90%; height: 500px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #04192a;
+    box-shadow: 10px 10px 15px #cbced1, -10px -10px 10px white;
+}
+.about{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+p{
+    text-align: center;
+}
+.demo:link, .demo:visited {
+    background-color: #e7dcd802;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5%;
+}
+
+li{
+    display: inline;
+    font-size:larger;
+}
+.demo:hover, .demo:active {
+ background-color: rgb(18, 18, 18);
+}
+.coloumn {
+    float: left;
+    width: 50%;
+}
+.row:after {
+     content: "";
+    display: table;
+    clear: both;
+}
